@@ -103,9 +103,9 @@
 		CB70E2C21944C8AE008C600C = {
 			isa = PBXGroup;
 			children = (
+				CB70E2CD1944C8AE008C600C /* Frameworks */,
 				CB70E2D41944C8AE008C600C /* HomeWork1-3 */,
 				CB70E2F31944C8AE008C600C /* HomeWork1-3Tests */,
-				CB70E2CD1944C8AE008C600C /* Frameworks */,
 				CB70E2CC1944C8AE008C600C /* Products */,
 			);
 			sourceTree = "<group>";
