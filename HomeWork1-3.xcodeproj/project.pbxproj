@@ -21,6 +21,16 @@
 		CB70E2F01944C8AE008C600C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB70E2D21944C8AE008C600C /* UIKit.framework */; };
 		CB70E2F81944C8AE008C600C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB70E2F61944C8AE008C600C /* InfoPlist.strings */; };
 		CB70E2FA1944C8AE008C600C /* HomeWork1_3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB70E2F91944C8AE008C600C /* HomeWork1_3Tests.m */; };
+		CB70E30E1944C957008C600C /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB70E3041944C957008C600C /* 0.jpg */; };
+		CB70E30F1944C957008C600C /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB70E3051944C957008C600C /* 1.jpg */; };
+		CB70E3101944C957008C600C /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB70E3061944C957008C600C /* 2.jpg */; };
+		CB70E3111944C957008C600C /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB70E3071944C957008C600C /* 3.jpg */; };
+		CB70E3121944C957008C600C /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CB70E3081944C957008C600C /* 4.jpg */; };
+		CB70E3131944C957008C600C /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = CB70E30A1944C957008C600C /* about.png */; };
+		CB70E3141944C957008C600C /* about@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB70E30B1944C957008C600C /* about@2x.png */; };
+		CB70E3151944C957008C600C /* profile.png in Resources */ = {isa = PBXBuildFile; fileRef = CB70E30C1944C957008C600C /* profile.png */; };
+		CB70E3161944C957008C600C /* profile@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CB70E30D1944C957008C600C /* profile@2x.png */; };
+		CB70E3191944CF36008C600C /* UIViewController+NiceAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = CB70E3181944CF36008C600C /* UIViewController+NiceAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +63,17 @@
 		CB70E2F51944C8AE008C600C /* HomeWork1-3Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomeWork1-3Tests-Info.plist"; sourceTree = "<group>"; };
 		CB70E2F71944C8AE008C600C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CB70E2F91944C8AE008C600C /* HomeWork1_3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeWork1_3Tests.m; sourceTree = "<group>"; };
+		CB70E3041944C957008C600C /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		CB70E3051944C957008C600C /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		CB70E3061944C957008C600C /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		CB70E3071944C957008C600C /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		CB70E3081944C957008C600C /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
+		CB70E30A1944C957008C600C /* about.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = about.png; sourceTree = "<group>"; };
+		CB70E30B1944C957008C600C /* about@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "about@2x.png"; sourceTree = "<group>"; };
+		CB70E30C1944C957008C600C /* profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = profile.png; sourceTree = "<group>"; };
+		CB70E30D1944C957008C600C /* profile@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile@2x.png"; sourceTree = "<group>"; };
+		CB70E3171944CF36008C600C /* UIViewController+NiceAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NiceAnimation.h"; sourceTree = "<group>"; };
+		CB70E3181944CF36008C600C /* UIViewController+NiceAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NiceAnimation.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,9 +133,12 @@
 		CB70E2D41944C8AE008C600C /* HomeWork1-3 */ = {
 			isa = PBXGroup;
 			children = (
+				CB70E3031944C957008C600C /* resource */,
 				CB70E2DD1944C8AE008C600C /* AppDelegate.h */,
 				CB70E2DE1944C8AE008C600C /* AppDelegate.m */,
 				CB70E2E01944C8AE008C600C /* Main.storyboard */,
+				CB70E3171944CF36008C600C /* UIViewController+NiceAnimation.h */,
+				CB70E3181944CF36008C600C /* UIViewController+NiceAnimation.m */,
 				CB70E2E31944C8AE008C600C /* ViewController.h */,
 				CB70E2E41944C8AE008C600C /* ViewController.m */,
 				CB70E2E61944C8AE008C600C /* Images.xcassets */,
@@ -150,6 +174,30 @@
 				CB70E2F61944C8AE008C600C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB70E3031944C957008C600C /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				CB70E3041944C957008C600C /* 0.jpg */,
+				CB70E3051944C957008C600C /* 1.jpg */,
+				CB70E3061944C957008C600C /* 2.jpg */,
+				CB70E3071944C957008C600C /* 3.jpg */,
+				CB70E3081944C957008C600C /* 4.jpg */,
+				CB70E3091944C957008C600C /* Buttons */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		CB70E3091944C957008C600C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CB70E30A1944C957008C600C /* about.png */,
+				CB70E30B1944C957008C600C /* about@2x.png */,
+				CB70E30C1944C957008C600C /* profile.png */,
+				CB70E30D1944C957008C600C /* profile@2x.png */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +276,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB70E3121944C957008C600C /* 4.jpg in Resources */,
+				CB70E3101944C957008C600C /* 2.jpg in Resources */,
+				CB70E3131944C957008C600C /* about.png in Resources */,
+				CB70E30E1944C957008C600C /* 0.jpg in Resources */,
 				CB70E2E71944C8AE008C600C /* Images.xcassets in Resources */,
 				CB70E2D91944C8AE008C600C /* InfoPlist.strings in Resources */,
 				CB70E2E21944C8AE008C600C /* Main.storyboard in Resources */,
+				CB70E3111944C957008C600C /* 3.jpg in Resources */,
+				CB70E3161944C957008C600C /* profile@2x.png in Resources */,
+				CB70E3151944C957008C600C /* profile.png in Resources */,
+				CB70E3141944C957008C600C /* about@2x.png in Resources */,
+				CB70E30F1944C957008C600C /* 1.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB70E3191944CF36008C600C /* UIViewController+NiceAnimation.m in Sources */,
 				CB70E2E51944C8AE008C600C /* ViewController.m in Sources */,
 				CB70E2DF1944C8AE008C600C /* AppDelegate.m in Sources */,
 				CB70E2DB1944C8AE008C600C /* main.m in Sources */,
